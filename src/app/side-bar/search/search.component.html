@@ -1,0 +1,26 @@
+<!-- <div class="container">
+    <a href="#" (click)="onclick()" *ngIf="!visible"><i  class="fas fa-search"  id='font-awesome1'></i></a>
+    <div class="search">
+    </div>
+    <a href="#" (click)="onclick()" *ngIf="visible"> <i class="fas fa-heart" id='font-awesome1'></i></a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <a href="#" (click)="towClick()" *ngIf="visit==1"><i class="fas fa-crow"></i></a>
+    <a href="#" (click)="towClick()" *ngIf="visit==0"> <i class="fas fa-dog"></i></a>
+</div>
+<br>
+<br>
+<br>
+<br> -->
+<div id="inputText">
+    <a href="#" class="a"><i *ngIf="visit==1" (click)="towClick()" class="fas fa-search"  id='font'></i></a>
+    <div id="div" *ngIf="visit==0">
+        <input type="text" name='text' autofocus placeholder="search...">
+        <a href="#" (click)="towClick()">
+            <i class="fas fa-times" style="margin-left: 10px;padding-top: 10px;font-size: 1rem"></i></a>
+    </div>
+</div>
